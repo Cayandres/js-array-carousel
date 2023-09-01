@@ -69,15 +69,3 @@ circlesCollection[counterSlider].classList.add('active')
 itemsCollection[counterSlider].classList.remove('hide')
 
 })
-
-
-
-
-
-
-
-
-
-
-
-

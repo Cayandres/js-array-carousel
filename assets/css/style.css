@@ -6,32 +6,43 @@
 
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(177, 177, 177);
-  color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 img{
+  height: 800px;
   width: 100%;
   object-fit: cover;
 }
 
+.title{
+  text-align: center;
+  font-size: 40px;
+  margin: 50px 0 0 20px;
+}
+
 .main-wrapper{
-  height: 100vh;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container{
-  width: 40%;
-  height: 40%;
+  width: 32%;
+  height: 80%;
   overflow: hidden;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 1px 10px 10px;
 }
 
 .container-small{
-  width: 10%;
-  height: 40%;
+  width: 8%;
+  height: 80%;
   background-color: rgb(0, 0, 0);
+  border-radius:0 10px 10px 0;
+  overflow: hidden;
+  box-shadow: 1px 10px 10px;
 }
 
 .activeT{
@@ -48,17 +59,13 @@ img{
   justify-content: center;
   position: relative;
   width: 100%;
-  height: 100%;
-  background-color: black;
- 
+  height: 100%; 
 }
 
 .item-wrapper{
   width: 100%;
   height: 100%;
-  
 }
-
 
 .slider .btn-arrow{
   position: absolute;
@@ -108,6 +115,8 @@ img{
   width: 100%;
 }
 
-.container-small .thumbs img{
-  height: calc(100%/5.2);
+.container-small .th{
+  display: flex;
+  flex-direction: column;
+  height: calc(100%/5);
 }
